@@ -1,0 +1,7 @@
+<h2>Componente Buscador</h2>
+<input type="text" id="buscar"/>
+<input type="submit" (click)="buscarWikipedia()" value="buscar"/>
+
+<ul *ngFor="let buscar of wikipedia">
+    <li>{{buscar}}</li>
+</ul>
